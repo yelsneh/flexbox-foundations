@@ -1,0 +1,102 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    gap: 32px;
+    justify-content: space-between;
+    font-family: Aventa, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 75px;
+}
+
+.right_links {
+    display: flex;
+    gap: 8px;
+    margin-right: 175px;
+}
+
+.content_middle {
+    background-color: #F9FAF8;
+}
+
+.randominfo {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+.boxes {
+    margin-left: 175px;
+    margin-right: 175px;
+    text-align: center;
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.hero_text_signup {
+    margin-left: 175px;
+    margin-right: 175px;
+}
+
+.header_logo {
+    margin-left: 175px;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.content_middle {
+    padding: 25px;
+    padding-bottom: 75px;
+}
+
+.quote_container {
+    text-align: center;
+    background-color: #E5E7EB;
+    padding: 100px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote_author {
+    font-weight: 800;
+    text-align: right;
+    padding-top: 5px;
+}
+
+.quote, .quote_author {
+    margin-left: 175px;
+    margin-right: 175px;
+}
+
+.footer {
+    text-align: center;
+    background-color: #1F2937;
+    margin-top: auto;
+    padding: 25px;
+    font-size: 15px;
+    color: gray;
+}
