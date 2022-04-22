@@ -12,6 +12,7 @@ html, body {
 a {
     text-decoration: none;
     color: gray;
+    font-size: 12px;
 }
 
 ul {
@@ -26,26 +27,31 @@ ul {
     padding-top: 10px;
 }
 
+
+.header_logo {
+    padding-left: 140px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #F9FAF8;
+}
+
 .right_links {
     display: flex;
     gap: 16px;
-    padding-right: 175px;
+    padding-right: 140px;
 }
 
 .content_middle {
     background-color: #F9FAF8;
-    width: 100%;
+    padding: 30px 140px 75px 140px;
 }
 
 .content_top {
     display: flex;
-    gap: 12px;
     flex-grow: 0.5;
     justify-content: space-between;
-    padding-left: 175px;
-    padding-right: 175px;
-    padding-top: 50px;
-    padding-bottom: 75px;
+    padding: 75px 140px 75px 140px;
+    gap: 8px;
 }
 
 button {
@@ -63,67 +69,64 @@ button {
 }
 
 .placeholder_image {
-    background-color: gray;
-    text-align: center;
+    background-color: #6d747d;
     color: white;
-    font-size: 12px;
-    width: 375px;
-    height: 125px;
-    margin-left: 25px;
+    font-size: 11px;
+    width: 180px;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 35px 50px 35px 50px;
+    flex: 4 0 23em;
+    text-align: center;
+    max-width: 180;
 }
 
 .placeholder_text {
-    padding-top: 45px;
+    padding: 0;
+    margin: 0;
 }
+
 .randominfo {
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 800;
     color: #1F2937;
     padding-bottom: 20px;
 }
 .boxes {
-    padding-left: 175px;
-    padding-right: 175px;
     text-align: center;
     display: flex;
     gap: 8px;
+    font-size: 15px;
 }
 
 .box {
-    height: 150px;
-    width: 150px;
-    border: 5px solid #3882F6;
+    height: 120px;
+    width: 120px;
+    border: 3px solid #3882F6;
     display: inline-block;
     border-radius: 12px;
 }
 
 .hero {
-    font-size: 48px;
-    font-weight: 800;
+    font-size: 34px;
+    font-weight: 600;
     color: #F9FAF8;
 }
 
 .hero_text_signup {
     display: flex;
-    gap: 4px;
     flex-flow: column wrap;
+    justify-content: center;
+    gap: 8px;
+    padding-right: 25px;
 }
 
 .hero_subtext {
     font-size: 15px;
     color: gray;
-}
-
-.header_logo {
-    padding-left: 175px;
-    font-size: 24px;
-    color: #F9FAF8;
-}
-
-.content_middle {
-    padding: 25px;
-    padding-bottom: 75px;
 }
 
 .quote_container {
@@ -134,7 +137,7 @@ button {
 }
 
 .quote {
-    font-size: 36px;
+    font-size: 25px;
     font-style: italic;
 }
 
@@ -151,29 +154,60 @@ button {
 
 .c2a_container {
     background-color: #F9FAF8;
-    display: flex;
-    padding: 50px 100px 50px 100px;
-    justify-content: space-evenly;
     text-align: center;
+}
+
+.c2a_box {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 75px 20px 75px;
+    background-color: #3882F6;
+    border-radius: 6px;
+    margin: 80px 140px 80px 140px;
 }
 
 .c2a {
     display: flex;
     flex-flow: column wrap;
+    justify-content: space-evenly;
     text-align: left;
 }
 
+.c2aheader {
+    font-size: 18px;
+    font-weight: 600;
+    color: #F9FAF8;
+    margin: 0;
+    padding-top: 20px;
+}
+
 .c2a_button {
-    border: 2px solid white;
-    padding-bottom: 5px;
+    border: 2px solid lightgray;
     font-weight: 700;
+    align-self: center;
+    margin-left: 25px;
+    border-radius: 6px;
+}
+
+.c2a_text {
+    color: #F9FAF8;
+    font-size: 12px;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.c2a_button_text {
+    color: #F9FAF8;
+    padding: 0;
+    font-size: 12px;
+    height: 20px;
 }
 
 .footer {
     text-align: center;
     background-color: #1F2937;
-    font-size: 15px;
+    font-size: 12px;
     padding-bottom: 25px;
     padding-top: 25px;
-    color: gray;
+    color: lightgray;
 }
