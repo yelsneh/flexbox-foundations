@@ -44,6 +44,10 @@ ul {
 .content_middle {
     background-color: #F9FAF8;
     padding: 30px 140px 75px 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .content_top {
@@ -100,6 +104,7 @@ button {
     gap: 8px;
     font-size: 15px;
     justify-content: center; 
+    max-width: 1200px;
 }
 
 .box {
@@ -122,6 +127,7 @@ button {
     justify-content: center;
     gap: 8px;
     padding-right: 25px;
+    max-width: 500px;
 }
 
 .hero_subtext {
@@ -155,7 +161,8 @@ button {
 .c2a_container {
     background-color: #F9FAF8;
     text-align: center;
-    justify-self: end;
+    display: flex;
+    justify-content: center;
 }
 
 .c2a_box {
