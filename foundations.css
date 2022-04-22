@@ -4,7 +4,7 @@ html, body {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
-    justify-content: space-between;
+    justify-content: stretch;
     font-family: Aventa, sans-serif;
     margin: 0;
 }
@@ -48,10 +48,10 @@ ul {
 
 .content_top {
     display: flex;
-    flex-grow: 0.5;
     justify-content: space-between;
     padding: 75px 140px 75px 140px;
     gap: 8px;
+    flex-grow: 2;
 }
 
 button {
@@ -100,6 +100,7 @@ button {
     display: flex;
     gap: 8px;
     font-size: 15px;
+    justify-content: center; 
 }
 
 .box {
